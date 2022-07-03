@@ -6,6 +6,8 @@
 {
 	char a;
 	for (a = 'a'; a <= 'z'; a++)
+	putchar(a);
+	{
 	if (a == 'q' || a == 'e')
 	{
 	continue;
