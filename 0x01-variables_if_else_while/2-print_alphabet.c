@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * main - entry point
+ * main - starting point
  *
  * Return: always return 0
  */
@@ -8,7 +8,7 @@ int main(void)
 {
 	char a;
 	for (a = 'a'; a <= 'z'; a++)
-		putchar(a);
-		putchar('\n');
-		return (0);
+	putchar(a);
+	putchar('\n');
+	return (0);
 }
