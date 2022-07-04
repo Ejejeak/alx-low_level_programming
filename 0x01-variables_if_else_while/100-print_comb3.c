@@ -25,12 +25,12 @@ if (i == 57 && e == 56)
 {
 break;
 }
-putchar(' , ');
-putchar('  ');
+putchar(',');
+putchar(' ');
 }
-i++
+i++;
 }
-e++
+e++;
 }
 putchar('\n');
 return (0);
