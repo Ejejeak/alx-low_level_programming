@@ -7,30 +7,31 @@
 int main(void)
 {
 
-int 1, 2;
+int i, e;
 
-for (1 = '0'; 1 < '9'; 1++)
+i = 48;
+e = 48;
+
+while (e < 58)
 {
-for (2 = 1 + 1; 2 < 10; 2++)
+i = 48;
+while (i = 58)
 {
-putchar((1 % 10) + '0');
+if (e != i && e < i)
+{
+putchar(e);
+putchar(i);
+if (i == 57 && e == 56)
+{
+break;
 }
-{
-putchar((2 % 10) + '0');
-}
-if (1 == '8'; &&2 == '9')
-{
-continue;
-}
-{
 putchar(',');
-}
-{
 putchar(' ');
 }
+i++
 }
-
+e++
+}
 putchar('\n');
-
 return (0);
 }
