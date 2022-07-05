@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - starting poing
+ * main - entry  point
  *
  * Return: always return 0
  */
@@ -29,7 +29,7 @@ putchar(' ');
 }
 a++;
 }
-b++
+b++;
 }
 }
 }
