@@ -36,5 +36,5 @@ _putchar(' ');
 _putchar('\n');
 }
 
-return (time table);
+return (1);
 }
