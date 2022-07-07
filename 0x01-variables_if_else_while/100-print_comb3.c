@@ -1,38 +1,33 @@
 #include <stdio.h>
+
 /**
- * main - entry  point
- *
- * Return: always return 0
- */
+  * main - Prints combination of numbers
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-int a, b;
+	int c, i;
 
-a = 48;
-b = 48;
+	for (c = '0'; c <= '9'; c++)
+	{
+		for (i = '0'; i <= '9'; i++)
+		{
+			if (c < i)
+			{
+				putchar(c);
+				putchar(i);
 
-while (b < 58)
-{
-a = 48;
-while (a < 58)
-{
-if ((b != a && b < a))
-{
-putchar(b);
-putchar(a);
-if (a == 57 && b == 56)
-{
-break;
-}
-putchar(',');
-putchar(' ');
-}
-a++;
-}
-b++;
-}
-}
-}
-putchar('\n');
-return (0);
+				if (c != '8' || (c == '8' && i != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
